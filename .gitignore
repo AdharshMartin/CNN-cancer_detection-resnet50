@@ -1,0 +1,57 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.h5
+*.keras
+*.pb
+*.tflite
+
+# Training logs and outputs
+logs/
+*.log
+*.csv
+*.json
+*.txt
+
+# TensorBoard and Keras artifacts
+events.out.tfevents.*
+checkpoint/
+saved_model/
+
+# Dataset folders (local only)
+dataset/
+dataset_mri/
+dataset-MRI-histo/
+test-image*/
+*.zip
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+.venv/
+*.bak
+
+# Auto-generated Grad-CAM overlays
+gradcam_outputs/
+*.png
+
+# Requirements cache
+pip-wheel-metadata/
+__pypackages__/
