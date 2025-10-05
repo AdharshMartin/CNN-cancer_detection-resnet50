@@ -60,6 +60,8 @@ Thumbs.db
 # Auto-generated Grad-CAM overlays
 gradcam_outputs/
 *.png
+*.jpg
+*.jpeg
 
 # Requirements cache
 pip-wheel-metadata/
